@@ -1,0 +1,37 @@
+input[type=text], input[type=email], select, textarea {
+	width: 90%;
+	padding: 12px 20px;
+	margin:8px 0;
+	
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+legend {
+	background-color: gray;
+	color: white;
+	padding: 5px 10px;
+}
+
+
+fieldset{
+	background-color: #eeeeee;
+	width:60%;
+}
+
+input[type=submit], input[type=reset]{
+	width:30%;
+	background-color: #4CAF50;
+	color:white;
+	padding: 14px 20px;
+	margin:8px 0;
+	border: none;
+	border-radius: 4px;
+	text-decoration: none;
+	cursor: pointer;
+	
+	
+}
+
+
+

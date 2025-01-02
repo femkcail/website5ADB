@@ -1,0 +1,45 @@
+body {
+	font-family: arial;
+	color: snow;
+	background-color:#9e9e76;
+	margin-bottom: 50px;
+	background-image: url("kwaliteit.png");
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+	background-position: center;
+	background-blend-mode: lighten;
+}
+
+p {
+	color:#ff00ff;
+}
+
+div#eerste3alineas {
+	background-color:#d6bcdd;
+	opacity:0.6;
+	  border-bottom-left-radius: 25px;
+	   border-top-left-radius: 25px;
+}
+
+p::before {
+	content: "Belangrijk---";
+}
+
+#visie {
+	font-family: 'Reggae One', cursive;
+}
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color:#006f00;
+	color: white;
+	text-align: center;
+}
+li a:hover{
+	background-color: yellow;
+	font-size:150%;
+}

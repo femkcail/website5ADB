@@ -1,0 +1,44 @@
+ul {
+	background-color: black;
+	overflow: hidden;
+}
+
+li {
+list-style: none;
+height: 44px;
+float: left;
+background:black;
+padding: 10px 5px;
+align-self: center;
+	
+}
+
+ul li a {
+display: block;
+width: 175px;
+height: 40px;
+font-size: 18 px;
+padding: 0px;
+text-align: center;
+color: #fff;
+border-bottom: 4px solid #636393;
+text-decoration: none;
+line-height: 53px;
+transition: .2s all linear;
+	
+}
+
+li:nth-child(1) a{
+	border-color: aqua;
+}
+li:nth-child(3) a{
+	border-color: cornflowerblue;
+	
+}
+
+li a:hover {
+	background: #008b8b;
+}
+
+
+

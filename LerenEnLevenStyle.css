@@ -1,0 +1,83 @@
+p {
+	margin-left: 100px;
+	color:#005500;
+}
+
+body {
+	font-family:arial;
+	color:snow;
+	background-color: #9e9e76;
+	background-image:url('kwaliteit.png');
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-blend-mode: lighten;
+
+	
+}
+
+footer {
+	background-color:#005500;
+	color:white;
+	text-align: center;
+	position: fixed;
+	width:100%;
+	left:0;
+	bottom:0;
+	
+}
+
+#zorg {
+	color:blue;
+	
+	
+}
+#titel{
+font-family: 'Shizuru', cursive;
+}
+
+#eerste3alineas {
+	background-color:#fff6dd;
+	opacity:0.6;
+	border-bottom-left-radius:25px;
+	border-top-left-radius:25px;
+	
+}
+
+a:hover {
+	background-color: yellow;
+	font-size: 150%;
+}
+
+
+/*----------MediaQuery's-----------*/
+@media only screen and (max-width:1000px){
+	footer {
+		background-color:#0055ff;
+	} 
+}
+
+@media only screen and (max-width:600px){
+	footer {
+		background-color:#ff55ff;
+	} 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
